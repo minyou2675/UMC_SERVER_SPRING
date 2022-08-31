@@ -18,7 +18,7 @@ Ani - Time팀 깃허브 입니다.
 
 <p align="center">
   <br>
-  <src="https://user-images.githubusercontent.com/79439483/187693214-da592d28-0e85-4dbd-b684-6c111dd9cbf8.jpg" width="500">
+  <img width="80%" src="https://user-images.githubusercontent.com/79439483/187695071-a0f6b7a3-7016-4b4b-801a-b095b3eeaea9.jpg"/>
   <br>
 </p>
 
