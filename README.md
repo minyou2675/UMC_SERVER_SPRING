@@ -23,20 +23,22 @@ Ani - Time팀 깃허브 입니다.
 </p>
 
 
-프로젝트 개요/동기
+## 프로젝트 개요/동기
 </p>
 
 <p align="center">
-GIF Images
+ - 유기견 개체 수 증가
+ - 유기견으로 인한 사회적 문제 증가
+ - 개체수 관리의 어려움
 </p>
 
 <br>
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |
+|  객체 탐지  | TypeScript |  React   |  Node   |
 | :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
+| <img width="80%" src="https://user-images.githubusercontent.com/79439483/187697100-4d0f969d-e1b5-431c-aa12-95b7ac6bb59b.jpg"/>  |   ![ts]    | ![react] | ![node] |
 
 <br>
 
@@ -49,19 +51,6 @@ GIF Images
 ### 기능 3
 
 ### 기능 4
-
-<br>
-
-## 코드 실행 방법
-
-
-1.main.py를 실행시키면, data 폴더에 있는 이미지들을 이용하여, 강아지 객체 감지, 배경제거, 모색클러스터링,사이즈 측정등이 순차적으로 진행하게 됩니다.
-
-2.배경이 제거된 이미지는 output내 2번 폴더에 사이즈가 측정된 이미지는 3번 폴더에 위치하게 됩니다.
-
-3.최종적으로 관련한 정보들은 엑셀에 작성되어 xlsx 파일로 출력되고 output 폴더에 output.xlsx 형태로 파일을 출력하게 되며, 최종적으로 aws 서비스의 mysql 데이터베이스에 업로드 됩니다.
-
-4.마지막으로 data내 이미지들은 s3에 업로드 되어 통합 데이터베이스가 구축되게 됩니다.
 
 <br>
 
@@ -79,6 +68,7 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
+[yolov5]: <img src="https://user-images.githubusercontent.com/79439483/187697100-4d0f969d-e1b5-431c-aa12-95b7ac6bb59b.jpg">
 [js]: /images/stack/javascript.svg
 [ts]: /images/stack/typescript.svg
 [react]: /images/stack/react.svg
