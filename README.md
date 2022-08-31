@@ -42,7 +42,7 @@ Ani - Time팀 깃허브 입니다.
 
 |  객체 탐지  | 배경 제거 |  특징 추출   |  데이터베이스   |
 | :--------: | :--------: | :------: | :-----: |
-| <img width="80%" src="https://user-images.githubusercontent.com/79439483/187697100-4d0f969d-e1b5-431c-aa12-95b7ac6bb59b.jpg"/>  |   <img width="80%" src="https://user-images.githubusercontent.com/79439483/187698245-09f1f455-199d-491f-80e8-e1bf132beae1.jpg"/>    | - K-means 알고리즘 <br> -EfficentNet <br>  | <img width="80%" src="https://user-images.githubusercontent.com/79439483/187699076-8dad0f10-7dda-454d-9642-524aa7d482b3.jpg"/> <img width="50%" src="https://user-images.githubusercontent.com/79439483/187699784-15097247-aa86-46e8-9aa5-93c72d3dcc5a.jpg"/>|
+| <img width="80%" src="https://user-images.githubusercontent.com/79439483/187697100-4d0f969d-e1b5-431c-aa12-95b7ac6bb59b.jpg"/>  |   <img width="80%" src="https://user-images.githubusercontent.com/79439483/187698245-09f1f455-199d-491f-80e8-e1bf132beae1.jpg"/>    | - K-means 알고리즘 <br> -EfficentNet <br>  | <img width="80%" src="https://user-images.githubusercontent.com/79439483/187699076-8dad0f10-7dda-454d-9642-524aa7d482b3.jpg"/> <img width="20%" src="https://user-images.githubusercontent.com/79439483/187699784-15097247-aa86-46e8-9aa5-93c72d3dcc5a.jpg"/>|
 
 <br>
 
