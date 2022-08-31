@@ -8,7 +8,7 @@ Ani - Time팀 깃허브 입니다.
 
 <p align="center">
   <br>
-  <img src="https://user-images.githubusercontent.com/79439483/187695733-9de05769-f9e3-4e41-8063-7d1c0e246000.jpg">
+  <img width="50%" src="https://user-images.githubusercontent.com/79439483/187695733-9de05769-f9e3-4e41-8063-7d1c0e246000.jpg">
   <br>
 </p>
 
@@ -18,7 +18,7 @@ Ani - Time팀 깃허브 입니다.
 
 <p align="center">
   <br>
-  <img width="80%" src="https://user-images.githubusercontent.com/79439483/187695071-a0f6b7a3-7016-4b4b-801a-b095b3eeaea9.jpg"/>
+  <img width="50%" src="https://user-images.githubusercontent.com/79439483/187695071-a0f6b7a3-7016-4b4b-801a-b095b3eeaea9.jpg"/>
   <br>
 </p>
 
