@@ -1,7 +1,5 @@
-# KT-SMU-AI-project-
+# KT-SMU-AI-project
 2022 KT와 함께하는 상명 AI 경진대회
-
-Ani - Time팀 깃허브 입니다.
 
 # Ani -Time 
 ## AI 를 활용한 유기견 모니터링 시스템
