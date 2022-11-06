@@ -14,8 +14,8 @@ public class UmcController {
 
         }
         @PostMapping("/post/{variable}")
-        public String signup(@PathVariable String variable){
-            return variable;
+        public String signup(@RequestBody MemberDto member){
+            return member.toString();
         }
         @GetMapping("/users")
         public String Lookup(){
