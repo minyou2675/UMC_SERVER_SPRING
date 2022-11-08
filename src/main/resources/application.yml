@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql-connector-j:8.0.31
+    url: root@ec2-54-180-1-233.ap-northeast-2.compute.amazonaws.com
+    username: kym2675
+    password: dbals3319

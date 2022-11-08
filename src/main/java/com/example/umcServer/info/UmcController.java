@@ -1,6 +1,8 @@
 package com.example.umcServer.info;
 
 import com.example.umcServer.dto.MemberDto;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +15,7 @@ public class UmcController {
             return "Hello world";
 
         }
-        @PostMapping("/post/{variable}")
+        @PostMapping("/create")
         public String signup(@RequestBody MemberDto member){
             return member.toString();
         }
@@ -23,4 +25,11 @@ public class UmcController {
             return member.toString();
 
         }
+        @PutMapping("/update")
+        public ResponseEntity<MemberDto> postMemberDto(@RequestBody MemberDto member){
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body(member);
+        }
+        @DeleteMapping("/delete/{variable}")
+        public String DeleteVariable(@PathVariable String variable)
+        {return variable;}
 }
