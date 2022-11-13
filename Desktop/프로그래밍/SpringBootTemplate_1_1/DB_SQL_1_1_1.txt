@@ -1,0 +1,16 @@
+-- 테이블 순서는 관계를 고려하여 한 번에 실행해도 에러가 발생하지 않게 정렬되었습니다.
+
+-- User Table Create SQL
+CREATE TABLE User
+(
+    `userIdx`    INT UNSIGNED    NOT NULL    AUTO_INCREMENT COMMENT '인덱스', 
+    `email`      VARCHAR(100)    NOT NULL    COMMENT '이메일', 
+    `password`   VARCHAR(200)    NOT NULL    COMMENT '비밀번호(암호화 고려)', 
+    `nickname`   VARCHAR(45)     NOT NULL    DEFAULT 'default name' COMMENT '닉네임', 
+    `createdAt`  TIMESTAMP       NOT NULL    DEFAULT CURRENT_TIMESTAMP COMMENT '생성일자', 
+    `updatedAt`  TIMESTAMP       NOT NULL    DEFAULT current_timestamp on update current_timestamp COMMENT '갱신(업데이트)일자', 
+    `status`     VARCHAR(1)      NOT NULL    DEFAULT 'A' COMMENT 'A: Active(활성상태), D: Delete(삭제, 탈퇴한 상태), B: Black(블랙 유저)', 
+     PRIMARY KEY (userIdx)
+);
+
+
